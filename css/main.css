@@ -46,3 +46,64 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+.section {
+  margin: 10px;
+  background-color: var(--beige);
+  display: flex;
+  padding: 20px 0px;
+}
+
+.box {
+  background-color: var(--white);
+  border: solid 1px var(--grey);
+  padding: 5px;
+  width: 25%;
+}
+
+.section-1 {
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.section-2 {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.section-2 .box {
+  width: 50%;
+}
+
+.section-3 .box {
+  width: 20%;
+}
+
+.section-3 {
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+
+.section-4 .box {
+  width: 40%;
+}
+
+.section-4 {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px 10px;
+}
+
+.section-5 .box {
+  width: 8%;
+}
+
+.section-5 {
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: baseline;
+  gap: 10px;
+}
